@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "http://localhost:8080/altinn-app-frontend.js"
+      }
+    },
+    "condition": {
+      "regexFilter": "/altinn-app-frontend.js$",
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "http://localhost:8080/altinn-app-frontend.css"
+      }
+    },
+    "condition": {
+      "regexFilter": "/altinn-app-frontend.css$",
+      "resourceTypes": ["stylesheet"]
+    }
+  }
+]
