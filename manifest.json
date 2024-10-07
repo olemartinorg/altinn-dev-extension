@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Altinn developer extension",
   "description": "Redirects all requests to a local Altinn app frontend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "declarative_net_request" : {
     "rule_resources" : [{
       "id": "ruleset",

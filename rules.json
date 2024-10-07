@@ -26,5 +26,19 @@
       "regexFilter": "/altinn-app-frontend.css$",
       "resourceTypes": ["stylesheet"]
     }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "http://localhost:8080/schemas/json/layout/layout.schema.v1.json"
+      }
+    },
+    "condition": {
+      "regexFilter": "/layout.schema.v1.json$",
+      "resourceTypes": ["xmlhttprequest"]
+    }
   }
 ]
